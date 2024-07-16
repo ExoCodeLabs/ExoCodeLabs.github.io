@@ -116,48 +116,73 @@ export default function Component() {
                 Hear from the people who have worked with us.
               </p>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+            <div
+              className="grid grid-cols-1 sm:grid-cols-2 gap-8"
+              style={{ position: "relative" }}
+            >
               <div className="rounded-lg bg-background p-6 text-left space-y-4 shadow-md">
                 <blockquote className="text-lg font-semibold leading-snug">
-                  &ldquo;EXO Code Labs has been an invaluable partner in helping
-                  us transform our digital presence. Their team's expertise and
-                  attention to detail have been truly impressive.&rdquo;
+                  &ldquo;Working with Rishi Patel has been an absolute pleasure.
+                  His expertise in the MERN stack is truly impressive. Not only
+                  did he deliver exceptional results, but his professionalism
+                  and communication throughout the project were outstanding.
+                  Rishi's ability to understand our requirements and translate
+                  them into a functional and aesthetically pleasing web
+                  application exceeded our expectations. He consistently went
+                  above and beyond to ensure that our project was completed on
+                  time and within budget. I highly recommend Rishi to anyone
+                  seeking a skilled MERN stack developer.&rdquo;
                 </blockquote>
-                <div className="flex items-center gap-4">
+                <div className="h-20"></div>
+                <div
+                  className="flex items-center gap-4"
+                  style={{ position: "absolute", bottom: 24 }}
+                >
                   <img
-                    src="/placeholder.svg"
+                    src="/images/team/Rishi_FullstackDeveloper.jpg"
                     width="50"
                     height="50"
                     alt="Testimonial Avatar"
                     className="rounded-full"
                   />
                   <div>
-                    <div className="font-semibold">Jane Doe</div>
+                    <div className="font-semibold">Shrunjal Mehta</div>
                     <div className="text-muted-foreground text-sm">
-                      CEO, Acme Inc.
+                      Head of Sales & CEO @Konzept Solutions
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="rounded-lg bg-background p-6 text-left space-y-4 shadow-md">
+              <div
+                className="rounded-lg bg-background p-6 text-left space-y-4 shadow-md"
+                style={{ position: "relative" }}
+              >
                 <blockquote className="text-lg font-semibold leading-snug">
-                  &ldquo;The team at EXO Code Labs has consistently delivered
-                  high-quality work that has exceeded our expectations. Their
-                  attention to detail and commitment to our success is
-                  unparalleled.&rdquo;
+                  &ldquo;Rishi has excelled in their role, contributing
+                  significantly to our projects and team. He showcased excellent
+                  skills in React, Node, Mongo, and JavaScript and consistently
+                  delivered high-quality work on time. His positive attitude and
+                  collaborative nature made him a valued team member. I am
+                  confident that Rishi will excel in any future endeavors and
+                  wholeheartedly recommend them for any position they seek.
+                  &rdquo;
                 </blockquote>
-                <div className="flex items-center gap-4">
+                <div className="h-5"></div>
+                <div
+                  className="flex items-center gap-4"
+                  style={{ position: "absolute", bottom: 24 }}
+                >
                   <img
-                    src="/placeholder.svg"
+                    src="/images/team/Rishi_FullstackDeveloper.jpg"
                     width="50"
                     height="50"
                     alt="Testimonial Avatar"
                     className="rounded-full"
                   />
                   <div>
-                    <div className="font-semibold">John Smith</div>
+                    <div className="font-semibold">Haresh Vavadiya</div>
                     <div className="text-muted-foreground text-sm">
-                      CTO, Globex Corporation
+                      Founder and CEO @ Dignizant Technologies LLP
                     </div>
                   </div>
                 </div>
@@ -171,7 +196,7 @@ export default function Component() {
                 </blockquote>
                 <div className="flex items-center gap-4">
                   <img
-                    src="/placeholder.svg"
+                     src="/images/team/Rishi_FullstackDeveloper.jpg"
                     width="50"
                     height="50"
                     alt="Testimonial Avatar"
@@ -215,7 +240,7 @@ export default function Component() {
               </div>
               <div className="rounded-lg bg-background p-6 text-left space-y-4 shadow-m text-center">
                 <img
-                  src="/placeholder.svg"
+                  src="/images/team/Rishi_FullstackDeveloper.jpg"
                   width="150"
                   height="150"
                   alt="Team Member"
@@ -243,7 +268,7 @@ export default function Component() {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
               <div className="rounded-lg overflow-hidden shadow-md">
                 <img
-                  src="/placeholder.svg"
+                  src="/images/team/Rishi_FullstackDeveloper.jpg"
                   width="550"
                   height="310"
                   alt="Portfolio Item"
@@ -258,7 +283,7 @@ export default function Component() {
               </div>
               <div className="rounded-lg overflow-hidden shadow-md">
                 <img
-                  src="/placeholder.svg"
+                  src="/images/team/Rishi_FullstackDeveloper.jpg"
                   width="550"
                   height="310"
                   alt="Portfolio Item"
@@ -273,7 +298,7 @@ export default function Component() {
               </div>
               <div className="rounded-lg overflow-hidden shadow-md">
                 <img
-                  src="/placeholder.svg"
+                  src="/images/team/Rishi_FullstackDeveloper.jpg"
                   width="550"
                   height="310"
                   alt="Portfolio Item"
@@ -310,7 +335,7 @@ export default function Component() {
               </Link>
             </div>
             <img
-              src="/placeholder.svg"
+              src="/images/team/Rishi_FullstackDeveloper.jpg"
               width="550"
               height="550"
               alt="Call to Action"
