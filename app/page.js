@@ -55,7 +55,7 @@ export default function Component() {
               </Link>
             </div>
             <img
-              src="/placeholder.svg"
+              src="images/logo.png"
               width="550"
               height="550"
               alt="Hero"
@@ -116,7 +116,7 @@ export default function Component() {
                 Hear from the people who have worked with us.
               </p>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
               <div className="rounded-lg bg-background p-6 text-left space-y-4 shadow-md">
                 <blockquote className="text-lg font-semibold leading-snug">
                   &ldquo;EXO Code Labs has been an invaluable partner in helping
@@ -162,7 +162,8 @@ export default function Component() {
                   </div>
                 </div>
               </div>
-              <div className="rounded-lg bg-background p-6 text-left space-y-4 shadow-md">
+              {/* <div className="rounded-lg p-6 text-left space-y-4"></div> */}
+              {/* <div className="rounded-lg bg-background p-6 text-left space-y-4 shadow-md">
                 <blockquote className="text-lg font-semibold leading-snug">
                   &ldquo;Working with EXO Code Labs has been a game-changer for
                   our business. Their team's expertise and innovative solutions
@@ -183,7 +184,7 @@ export default function Component() {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -200,50 +201,30 @@ export default function Component() {
               </p>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-              <div className="rounded-lg bg-background p-6 text-left space-y-4 shadow-md">
+              <div className="rounded-lg p-6 text-left space-y-4 "></div>
+              <div className="rounded-lg bg-background p-6 text-left space-y-4 shadow-md text-center">
                 <img
-                  src="/placeholder.svg"
-                  width="100"
-                  height="100"
+                  src="/images/team/Rishi_FullstackDeveloper.jpg"
+                  width="150"
+                  height="150"
                   alt="Team Member"
                   className="mx-auto aspect-square overflow-hidden rounded-full object-cover"
                 />
-                <h3 className="text-2xl font-bold">John Doe</h3>
+                <h3 className="text-2xl font-bold ">Rishi Patel</h3>
                 <p className="text-muted-foreground">Co-Founder, CEO</p>
               </div>
-              <div className="rounded-lg bg-background p-6 text-left space-y-4 shadow-md">
+              <div className="rounded-lg bg-background p-6 text-left space-y-4 shadow-m text-center">
                 <img
                   src="/placeholder.svg"
-                  width="100"
-                  height="100"
+                  width="150"
+                  height="150"
                   alt="Team Member"
                   className="mx-auto aspect-square overflow-hidden rounded-full object-cover"
                 />
                 <h3 className="text-2xl font-bold">Jane Smith</h3>
                 <p className="text-muted-foreground">Co-Founder, CTO</p>
               </div>
-              <div className="rounded-lg bg-background p-6 text-left space-y-4 shadow-md">
-                <img
-                  src="/placeholder.svg"
-                  width="100"
-                  height="100"
-                  alt="Team Member"
-                  className="mx-auto aspect-square overflow-hidden rounded-full object-cover"
-                />
-                <h3 className="text-2xl font-bold">Michael Johnson</h3>
-                <p className="text-muted-foreground">Lead Developer</p>
-              </div>
-              <div className="rounded-lg bg-background p-6 text-left space-y-4 shadow-md">
-                <img
-                  src="/placeholder.svg"
-                  width="100"
-                  height="100"
-                  alt="Team Member"
-                  className="mx-auto aspect-square overflow-hidden rounded-full object-cover"
-                />
-                <h3 className="text-2xl font-bold">Emily Davis</h3>
-                <p className="text-muted-foreground">UI/UX Designer</p>
-              </div>
+              <div className="rounded-lg  p-6 text-left space-y-4"></div>
             </div>
           </div>
         </div>

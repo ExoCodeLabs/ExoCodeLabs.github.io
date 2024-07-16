@@ -34,10 +34,11 @@
 
   body {
     @apply bg-background text-foreground font-body;
+    min-width: fit-content !important;
   }
 
   .container {
-    max-width: 100%;
+    max-width: 100% !important;
   }
 
   h1,
