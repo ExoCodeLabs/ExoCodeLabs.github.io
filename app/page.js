@@ -1,10 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
-/**
- * v0 by Vercel.
- * @see https://v0.dev/t/uQplEFzY2iL
- * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
- */
+
 import Link from "next/link"
 
 export default function Component() {
@@ -139,7 +135,7 @@ export default function Component() {
                   style={{ position: "absolute", bottom: 24 }}
                 >
                   <img
-                    src="/images/team/Rishi_FullstackDeveloper.jpg"
+                    src="/images/clients/Konzept_solutions.png"
                     width="50"
                     height="50"
                     alt="Testimonial Avatar"
@@ -173,9 +169,9 @@ export default function Component() {
                   style={{ position: "absolute", bottom: 24 }}
                 >
                   <img
-                    src="/images/team/Rishi_FullstackDeveloper.jpg"
-                    width="50"
-                    height="50"
+                    src="/images/clients/Dignizant_Technologies.png"
+                    width="90"
+                    height="150"
                     alt="Testimonial Avatar"
                     className="rounded-full"
                   />
