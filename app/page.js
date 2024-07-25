@@ -97,6 +97,31 @@ export default function Component() {
                   interfaces that captivate your audience and drive engagement.
                 </p>
               </div>
+              <div className="rounded-lg bg-muted p-6 text-left space-y-4">
+                <CodeIcon className="w-10 h-10 text-[#FF6B00]" />
+                <h3 className="text-2xl font-bold">Web Development</h3>
+                <p className="text-muted-foreground">
+                  Our expert team crafts custom web applications that are
+                  visually stunning, highly functional, and optimized for
+                  performance.
+                </p>
+              </div>
+              <div className="rounded-lg bg-muted p-6 text-left space-y-4">
+                <SmartphoneIcon className="w-10 h-10 text-[#FF6B00]" />
+                <h3 className="text-2xl font-bold">Mobile Development</h3>
+                <p className="text-muted-foreground">
+                  We develop cutting-edge mobile apps for both iOS and Android
+                  platforms, ensuring a seamless user experience across devices.
+                </p>
+              </div>
+              <div className="rounded-lg bg-muted p-6 text-left space-y-4">
+                <TypeIcon className="w-10 h-10 text-[#FF6B00]" />
+                <h3 className="text-2xl font-bold">UI/UX Design</h3>
+                <p className="text-muted-foreground">
+                  Our designers create visually stunning and intuitive user
+                  interfaces that captivate your audience and drive engagement.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -236,13 +261,13 @@ export default function Component() {
               </div>
               <div className="rounded-lg bg-background p-6 text-left space-y-4 shadow-m text-center">
                 <img
-                  src="/images/team/Rishi_FullstackDeveloper.jpg"
+                  src="/images/services/AI_brain.png"
                   width="150"
                   height="150"
                   alt="Team Member"
                   className="mx-auto aspect-square overflow-hidden rounded-full object-cover"
                 />
-                <h3 className="text-2xl font-bold">Jane Smith</h3>
+                <h3 className="text-2xl font-bold">Classified</h3>
                 <p className="text-muted-foreground">Co-Founder, CTO</p>
               </div>
               <div className="rounded-lg  p-6 text-left space-y-4"></div>
@@ -264,14 +289,14 @@ export default function Component() {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
               <div className="rounded-lg overflow-hidden shadow-md">
                 <img
-                  src="/images/team/Rishi_FullstackDeveloper.jpg"
+                  src="/images/services/AI_brain.png"
                   width="550"
                   height="310"
                   alt="Portfolio Item"
-                  className="w-full aspect-video object-cover"
+                  className=" aspect-video object-fit"
                 />
                 <div className="p-6 bg-background">
-                  <h3 className="text-2xl font-bold">Project 1</h3>
+                  <h3 className="text-2xl font-bold">AI Pow</h3>
                   <p className="text-muted-foreground">
                     A modern and responsive web application.
                   </p>
@@ -279,11 +304,11 @@ export default function Component() {
               </div>
               <div className="rounded-lg overflow-hidden shadow-md">
                 <img
-                  src="/images/team/Rishi_FullstackDeveloper.jpg"
+                  src="/images/services/speedometer.png"
                   width="550"
                   height="310"
                   alt="Portfolio Item"
-                  className="w-full aspect-video object-cover"
+                  className=" aspect-video object-fit"
                 />
                 <div className="p-6 bg-background">
                   <h3 className="text-2xl font-bold">Project 2</h3>
@@ -294,11 +319,11 @@ export default function Component() {
               </div>
               <div className="rounded-lg overflow-hidden shadow-md">
                 <img
-                  src="/images/team/Rishi_FullstackDeveloper.jpg"
+                  src="/images/services/puzzles.png"
                   width="550"
                   height="310"
                   alt="Portfolio Item"
-                  className="w-full aspect-video object-cover"
+                  className=" aspect-video object-fit"
                 />
                 <div className="p-6 bg-background">
                   <h3 className="text-2xl font-bold">Project 3</h3>
