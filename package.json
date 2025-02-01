@@ -20,7 +20,8 @@
     "react": "^18",
     "react-dom": "^18",
     "tailwind-merge": "^3.0.1",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "the-exo-code-labs": "file:"
   },
   "devDependencies": {
     "eslint": "^8",
