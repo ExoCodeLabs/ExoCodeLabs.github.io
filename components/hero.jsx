@@ -1,5 +1,6 @@
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
+import Link from "next/link"
 
 export default function Hero() {
   return (
@@ -14,9 +15,11 @@ export default function Hero() {
             Exo CodeLabs delivers cutting-edge AI and software development
             services to propel your business into the future.
           </p>
-          <Button className="bg-orange-500 hover:bg-orange-600 text-white">
-            Get Started
-          </Button>
+          <Link href="#services">
+            <Button className="bg-orange-500 hover:bg-orange-600 text-white">
+              Get Started
+            </Button>
+          </Link>
         </div>
         <div className="">
           <Image
