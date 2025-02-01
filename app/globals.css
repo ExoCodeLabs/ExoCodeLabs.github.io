@@ -68,6 +68,19 @@
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
   }
+  /* Scrollbar styles */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: black;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #f97316; /* Tailwind's text-orange-500 color */
+    border-radius: 6px;
+  }
 }
 
 @layer base {
