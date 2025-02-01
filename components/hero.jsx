@@ -27,7 +27,7 @@ export default function Hero() {
             alt="AI-powered software"
             width={400}
             height={400}
-            className="rounded-lg shadow-2xl"
+            className="rounded-lg shadow-2xl shadow-lg"
           />
         </div>
       </div>

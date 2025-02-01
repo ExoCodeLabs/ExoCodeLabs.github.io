@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Facebook, Twitter, Linkedin, Github } from "lucide-react"
+import { Linkedin, Github, Instagram } from "lucide-react"
 
 export default function Footer() {
   return (
@@ -60,28 +60,27 @@ export default function Footer() {
             </h4>
             <div className="flex space-x-4">
               <a
-                href="#"
+                href="https://github.com/ExoCodeLabs"
                 className="text-gray-400 hover:text-orange-500 transition-colors"
+                target="_blank"
+                aria-label="GitHub"
               >
-                <Facebook size={24} />
+                <Github size={24} />
               </a>
               <a
-                href="#"
-                className="text-gray-400 hover:text-orange-500 transition-colors"
-              >
-                <Twitter size={24} />
-              </a>
-              <a
-                href="#"
+                href="https://www.linkedin.com/company/exocode-labs/about"
+                target="_blank"
                 className="text-gray-400 hover:text-orange-500 transition-colors"
               >
                 <Linkedin size={24} />
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/exocodelabs"
                 className="text-gray-400 hover:text-orange-500 transition-colors"
+                target="_blank"
+                aria-label="Instagram"
               >
-                <Github size={24} />
+                <Instagram size={24} />
               </a>
             </div>
           </div>
