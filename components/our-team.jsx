@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const team = [
   {
-    name: "Er. Rishi Patel",
+    name: "Rishi Patel",
     role: "CEO, AI Research Lead & Developer",
     image: "images/team/Rishi_FullstackDeveloper.jpg",
   },
