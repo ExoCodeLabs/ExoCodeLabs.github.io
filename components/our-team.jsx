@@ -5,12 +5,7 @@ const team = [
     name: "Rishi Patel",
     role: "CEO, AI Research Lead & Developer",
     image: "images/team/Rishi_FullstackDeveloper.jpg",
-  },
-  {
-    name: "A.I.",
-    role: "CTO & Fullstack Developer",
-    image: "images/team/classified.webp",
-  },
+  }
 ]
 
 export default function OurTeam() {
