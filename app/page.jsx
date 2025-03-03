@@ -6,10 +6,11 @@ import ClientReviews from "@/components/client-reviews"
 import OurTeam from "@/components/our-team"
 import ContactUs from "@/components/contact-us"
 import Footer from "@/components/footer"
+import Products from "@/components/products"
 
 export default function Home() {
   return (
-    (<div className="min-h-screen bg-black text-white">
+    <div className="min-h-screen bg-black text-white">
       <Header />
       <main>
         <Hero />
@@ -17,10 +18,10 @@ export default function Home() {
         <ClientLogos />
         <ClientReviews />
         <OurTeam />
+        <Products />
         <ContactUs />
       </main>
       <Footer />
-    </div>)
-  );
+    </div>
+  )
 }
-
