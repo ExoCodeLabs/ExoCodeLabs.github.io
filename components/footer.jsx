@@ -38,10 +38,10 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="#team"
+                  href="#products"
                   className="text-gray-400 hover:text-orange-500 transition-colors"
                 >
-                  Team
+                  Products
                 </Link>
               </li>
               <li>
