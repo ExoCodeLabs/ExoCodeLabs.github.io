@@ -75,7 +75,7 @@ export default function Footer() {
                 <Linkedin size={24} />
               </a>
               <a
-                href="https://www.instagram.com/exocodelabs"
+                href="https://www.instagram.com/exocode_labs"
                 className="text-gray-400 hover:text-orange-500 transition-colors"
                 target="_blank"
                 aria-label="Instagram"

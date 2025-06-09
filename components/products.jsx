@@ -37,13 +37,13 @@ const products = [
     link: "https://exocodelabs.github.io/exo-crm/dashboard",
     disabled: false,
   },
-  {
-    icon: <Resume className="w-12 h-12 text-orange-500" />,
-    title: "Resume Craft AI",
-    description: "Build your resume effortlessly with AI-powered assistance.",
-    link: "https://exocodelabs.github.io/resume-craft-ai/",
-    disabled: true,
-  },
+  // {
+  //   icon: <Resume className="w-12 h-12 text-orange-500" />,
+  //   title: "Resume Craft AI",
+  //   description: "Build your resume effortlessly with AI-powered assistance.",
+  //   link: "https://exocodelabs.github.io/resume-craft-ai/",
+  //   disabled: true,
+  // },
 ]
 
 export default function Products() {
@@ -53,7 +53,7 @@ export default function Products() {
         <h2 className="text-4xl font-bold mb-12 text-center text-white">
           Our Products
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-8">
           {products.map((product, index) => (
             <div
               key={index}

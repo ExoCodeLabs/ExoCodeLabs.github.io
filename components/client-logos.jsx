@@ -9,6 +9,10 @@ const clients = [
     name: "Konzept Solutions",
     logo: "images/clients/Konzept_solutions.png?height=80&width=120",
   },
+  {
+    name: "Sifio Health",
+    logo: "images/clients/sifio_health.png?height=80&width=120",
+  },
 ]
 
 export default function ClientLogos() {
