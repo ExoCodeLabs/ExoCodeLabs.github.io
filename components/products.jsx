@@ -1,15 +1,4 @@
-import {
-  Code,
-  Cpu,
-  Globe,
-  Smartphone,
-  Cloud,
-  MessageSquare,
-  LinkIcon,
-  BotIcon as Robot,
-  FileText as Resume,
-  LayoutGrid,
-} from "lucide-react"
+import { Code, ReceiptIcon as Receipt, LayoutGrid } from "lucide-react"
 import Link from "next/link"
 
 const products = [
@@ -22,11 +11,11 @@ const products = [
     disabled: false,
   },
   {
-    icon: <Robot className="w-12 h-12 text-orange-500" />,
-    title: "Exonizer - AI Text Humanizer",
+    icon: <Receipt className="w-12 h-12 text-orange-500" />,
+    title: "INVOXA – Invoice as service Platform",
     description:
-      "AI-powered tool to humanize text, making it more natural and engaging.",
-    link: "https://exocodelabs.github.io/Exonizer/",
+      "A modular, scalable, and cloud-ready invoice-as-a-service platform. INVOXA enables authentication, client management, invoice generation, payments, notifications, and analytics with a clean microservices architecture.",
+    link: "https://github.com/rishhi-patel/invoxa.git",
     disabled: false,
   },
   {
